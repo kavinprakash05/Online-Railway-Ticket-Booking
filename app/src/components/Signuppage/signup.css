@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f5f9;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 7% auto;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    background-image: url(' https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60');
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup-form input {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(235, 239, 245, 0.8);
+    transition: background 0.3s ease;
+}
+
+.signup-form input:focus {
+    background: #eef1f6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(51, 204, 255, 0.5);
+}
+
+.signup-form button {
+    padding: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-image: linear-gradient(135deg, #9b59b6, #71b7e6);
+}
+
+.redirect-to-login {
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+}
+
+
